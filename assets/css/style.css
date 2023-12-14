@@ -125,6 +125,7 @@ h6 {
 
 #header .social-links a:hover {
   background: #18d26e;
+  text-decoration: underline;
 }
 
 @media (max-width: 992px) {
@@ -1171,13 +1172,16 @@ section .container {
 # Credits
 --------------------------------------------------------------*/
 .credits {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: 0.1% ;
+  background-blend-mode: hue;
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
   padding: 15px;
-  text-align: right;
-  font-size: 13px;
+  text-align: center;
+  font-size: 15px;
   color: #fff;
   z-index: 999999;
 }
